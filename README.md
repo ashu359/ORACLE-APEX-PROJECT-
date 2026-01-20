@@ -1,34 +1,34 @@
-People Idea Analysis App — README
-Project Overview
+💡 People Idea Analysis App — README
+📌 Project Overview
 
-The People Idea Analysis App is a data-driven web application designed to collect, categorize, and analyze ideas submitted by people.
-The system allows users to submit ideas with details such as category and impact level, and provides visual insights using charts to help decision-makers understand trends and priorities.
+The People Idea Analysis App is an Oracle APEX–based web application designed to collect, manage, and analyze ideas submitted by people.
+The application uses SQL and PL/SQL for backend processing and APEX charts for visualization.
 
-The project focuses on data collection, basic analytics, and visualization, making it suitable for Data Analyst / Software Project / Mini Project submissions.
+This project focuses on idea data collection, categorization, and analytical reporting, making it suitable for Oracle APEX, SQL/PL-SQL, and Data Analyst Fresher roles.
 
-Application Features (Based on UI)
+🧭 Application Modules
 
-The application consists of three main sections:
+The application consists of three main APEX pages:
 
-People Idea Analysis – Idea submission form
+📝 People Idea Analysis – Idea submission form
 
-Report Page Analysis – Data listing & reports (future extension)
+📄 Report Page Analysis – Tabular view of submitted ideas
 
-Chart Analysis – Visual representation of idea data
+📊 Chart Analysis – Visual insights using Pie Chart
 
-People Idea Analysis (Form Module)
+📝 People Idea Analysis (Form Page)
 
-This module is used to collect ideas from users.
+This page is used to enter and store idea details.
 
-Input Fields
+🔹 Input Fields
 
-Person Name – Name of the idea submitter
+👤 Person Name – Name of the idea submitter
 
-Idea Title – Short title of the idea
+🏷️ Idea Title – Short title of the idea
 
-Idea Description – Detailed explanation of the idea
+🧠 Idea Description – Detailed explanation
 
-Idea Category – Category of the idea
+🗂️ Idea Category –
 
 Education
 
@@ -40,7 +40,7 @@ Other
 
 N/A
 
-Impact Level – Expected impact of the idea
+🎯 Impact Level –
 
 High
 
@@ -48,78 +48,94 @@ Medium
 
 Low
 
-Submitted On – Date of idea submission
+📅 Submitted On – Idea submission date
 
-Actions
+🔘 Actions
 
-Submit – Saves the idea for analysis
+✅ Submit – Saves idea data into Oracle Database
 
-Cancel – Clears the form
+❌ Cancel – Clears the form
 
-Chart Analysis Module
+📄 Report Page Analysis
 
-This module provides visual insights into the submitted ideas.
+This page displays idea data in a report format.
 
-Chart Type
+🔹 Features
+
+View all submitted ideas
+
+Sort and filter by:
+
+Category
+
+Impact Level
+
+Submission Date
+
+Supports data validation using SQL queries
+
+📊 Chart Analysis Module
+
+This module provides visual analytics using Oracle APEX Charts.
+
+📈 Chart Type
 
 Pie Chart
 
-Analysis Shown
+🔹 Analysis Shown
 
-Distribution of ideas by Idea Category
+Category-wise idea distribution:
 
-Education
+🎓 Education
 
-Social
+🤝 Social
 
-Business
+💼 Business
 
-Other
+🌐 Other
 
-N/A
+❓ N/A
 
-Purpose of Chart
+🎯 Purpose
 
-Understand which category has the maximum ideas
+Identify most popular idea category
 
-Identify popular domains
+Understand idea distribution
 
-Support decision-making and prioritization
+Support data-driven decisions
 
-Problem Statement
+❓ Problem Statement
 
-Organizations often receive many ideas, but:
+Organizations receive multiple ideas, but:
 
-Ideas are not properly categorized
-
-No visual understanding of idea distribution
+Ideas are not structured properly
 
 Manual analysis is time-consuming
 
-Decision-making becomes difficult
+No visual insights for decision-making
 
-There is a need for a simple idea analysis system that:
+There is a need for a centralized idea analysis system that:
 
-Collects idea data
+Collects idea data efficiently
 
-Organizes it by category and impact
+Categorizes ideas logically
 
-Displays insights visually using charts
+Displays insights visually
 
-Solution
+✅ Solution
 
 The People Idea Analysis App solves this problem by:
 
-Providing a structured idea submission form
+Using Oracle APEX forms for data collection
 
-Storing idea data in a systematic way
+Storing data using Oracle SQL & PL/SQL
 
-Generating chart-based analysis
+Displaying insights through APEX Pie Charts
 
-Helping stakeholders quickly understand idea trends
+Enabling quick and clear analysis
 
-Data Model — Entity Summary (Easy Language)
-idea
+🗄️ Data Model — Entity Summary (Easy Language)
+📘 IDEA Table
 
 Stores idea-related information:
 
@@ -135,71 +151,73 @@ impact_level
 
 submitted_date
 
-Key Insights / KPIs
+📌 Key KPIs & Insights
 
-Total number of ideas submitted
+📊 Total number of ideas submitted
 
-Category-wise idea distribution
+🗂️ Category-wise idea count
 
-Most popular idea category
+🎯 High / Medium / Low impact distribution
 
-High / Medium / Low impact idea count
+⭐ Most popular idea category
 
-Technology Stack (Used)
+🧰 Technology Stack (Used)
 
-Application Platform: Oracle APEX
+🧩 Application Platform: Oracle APEX
 
-Frontend: Oracle APEX UI Components (Forms, Pages, Interactive Reports)
+🎨 Frontend: Oracle APEX UI Components
 
-Backend: SQL & PL/SQL
+⚙️ Backend: SQL & PL/SQL
 
-Database: Oracle Database
+🗄️ Database: Oracle Database
 
-Visualization: Oracle APEX Chart (Pie Chart)
+📊 Visualization: Oracle APEX Chart (Pie Chart)
 
-How to Run the Project (Simple Steps)
+▶️ How to Run the Project
 
-Open the application in a browser
+Login to Oracle APEX Workspace
 
-Fill the People Idea Analysis form
+Open the People Idea Analysis App
 
-Submit idea details
+Enter idea details using the form
+
+Submit data to Oracle Database
 
 Navigate to Chart Analysis
 
-View category-wise idea distribution
+View category-wise idea insights
 
-Example Analysis Questions
+❓ Example Analysis Questions
 
-Which idea category has the highest number of ideas?
+Which category has the highest number of ideas?
 
-How many ideas fall under Education vs Business?
+How many ideas are High Impact?
 
-What percentage of ideas are High Impact?
+What is the percentage of Education vs Business ideas?
 
-Future Enhancements (Scope)
+🚀 Future Enhancements
 
-Add user login and role-based access
+🔐 User login & role-based access
 
-Add idea approval workflow
+📊 Impact-wise charts
 
-Include impact-wise charts
+📤 Export reports to Excel / PDF
 
-Export reports in Excel / PDF
+🤖 AI-based idea scoring
 
-Add AI-based idea scoring
+📱 Mobile-friendly UI
 
-Project Use Case
+🎓 Project Use Case
 
-College Mini Project
+Oracle APEX Mini / Major Project
 
-Data Analyst Fresher Portfolio
+SQL & PL/SQL Practice Project
 
-Idea Management System
+Data Analysis & Dashboard Project
 
-Dashboard & Visualization Practice
+Fresher Resume & Interview Showcase
 
-Conclusion
+🏁 Conclusion
 
-The People Idea Analysis App demonstrates how structured data collection and visualization can transform raw ideas into meaningful insights.
-This project highlights data analysis thinking, UI design, and chart-based reporting, making it suitable for academic and fresher-level professional use.
+The People Idea Analysis App demonstrates effective use of Oracle APEX, SQL, and PL/SQL to transform raw ideas into meaningful insights.
+It highlights skills in database design, reporting, and data visualization, making it ideal for Oracle APEX and Data Analyst Fresher roles
